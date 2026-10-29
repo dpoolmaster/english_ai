@@ -9,11 +9,11 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/english-ai/english_ai/internal/platform/config"
-	"github.com/english-ai/english_ai/internal/platform/httpserver"
-	"github.com/english-ai/english_ai/internal/platform/httpx"
-	"github.com/english-ai/english_ai/internal/platform/logging"
-	"github.com/english-ai/english_ai/internal/platform/metrics"
+	"github.com/dpoolmaster/english_ai/internal/platform/config"
+	"github.com/dpoolmaster/english_ai/internal/platform/httpserver"
+	"github.com/dpoolmaster/english_ai/internal/platform/httpx"
+	"github.com/dpoolmaster/english_ai/internal/platform/logging"
+	"github.com/dpoolmaster/english_ai/internal/platform/metrics"
 )
 
 func main() {

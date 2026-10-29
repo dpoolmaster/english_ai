@@ -7,9 +7,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/english-ai/english_ai/internal/platform/config"
-	"github.com/english-ai/english_ai/internal/platform/logging"
-	"github.com/english-ai/english_ai/internal/platform/worker"
+	"github.com/dpoolmaster/english_ai/internal/platform/config"
+	"github.com/dpoolmaster/english_ai/internal/platform/logging"
+	"github.com/dpoolmaster/english_ai/internal/platform/worker"
 )
 
 func main() {

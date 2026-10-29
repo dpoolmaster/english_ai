@@ -1,4 +1,4 @@
-module github.com/english-ai/english_ai
+module github.com/dpoolmaster/english_ai
 
 go 1.27.3
 
