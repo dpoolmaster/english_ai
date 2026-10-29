@@ -190,6 +190,10 @@
   },
   "active": "9df443f307ff564f",
   "lastOpenFiles": [
+    "bin/worker",
+    "bin/web",
+    "bin",
+    "Makefile",
     "internal/platform/tools/tools.go",
     "internal/platform/tools",
     "go.sum",
@@ -198,10 +202,6 @@
     "internal/platform/worker/worker_test.go",
     "internal/platform/httpserver/httpserver_test.go",
     "internal/platform/httpx/httpx_test.go",
-    "internal/platform/logging/logging_test.go",
-    "internal/platform/config/config_test.go",
-    "cmd/worker/main.go",
-    "cmd/web/main.go",
     "NEXT_STAGES_WORKFLOW.md",
     "Техническое задание.md",
     "DEVELOPMENT_WORKFLOW.md"
