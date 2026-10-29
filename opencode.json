@@ -1,0 +1,159 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "routerai": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "RouterAI",
+      "options": {
+        "baseURL": "https://routerai.ru/api/v1"
+      },
+      "models": {
+        "deepseek/deepseek-v4-flash-0731": {
+          "name": "Deepseek Flash"
+        },
+        "xiaomi/mimo-v2.5": {
+          "name": "MiMo-V2.5"
+        }
+
+      }
+    },
+    "plusvibe": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "PlusVibeAPI",
+      "options": {
+        "baseURL": "https://plusvibeapi.ru/v1"
+      },
+      "models": {
+	"deepseek-v4.1-flash": {
+          "name": "Plusvibe Deepseek-4.1-flash"
+        },
+	"deepseek/deepseek-v4-flash-0731:network": {
+          "name": "Plusvibe Deepseek flash:network"
+        },
+	"muse-spark-1.3-contributor": {
+          "name": "Plusvibe Muse-spark-1.3-contributor"
+        },
+	"z-ai/glm-5.2:network": {
+          "name": "Plusvibe GLM5.2:network"
+        },
+	"gpt-6.1-sol:cx": {
+          "name": "Plusvibe GPT-6.1:cx"
+        },
+	"gpt-6.1-sol": {
+          "name": "Plusvibe GPT-6.1"
+        },
+	"deepseek-v4.1-flash-1017:cxb": {
+          "name": "Deepseek-v4.1-flash-1017:cxb"
+        },
+	"qwen/qwen3.8-max:cxa": {
+          "name": "Plus-Qwen3.8-max"
+        },
+	"claude-sonnet-5.5:kiro-enterprise": {
+          "name": "Plus-claude-sonnet-5.5:kiro-enterprise"
+        }
+
+
+
+      }
+    },
+    "myopencode": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "MyOpenCode",
+      "options": {
+        "baseURL": "https://opencode.ai/inference/openai/v1"
+      },
+      "models": {
+	"muse-spark-1.3-contributor-free": {
+          "name": "My-Muse-Spark-1.3-free"
+        },
+	"muse-spark-1.2-contributor-free": {
+          "name": "My-Muse-Spark-1.2-free"
+        },
+	"deepseek-v4.1-flash-free": {
+          "name": "My-Deepseek4-flash-free"
+        }
+
+      }
+    },
+    "odirouter": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "OdiRouter",
+      "options": {
+        "baseURL": "https://api.odirouter.ai/v1"
+      },
+      "models": {
+	"deepseek-v4-flash-0731": {
+          "name": "OdiRouter Deepseek"
+        },
+	"free-minimax-m2.7": {
+          "name": "OdiRouter Minimax2.7"
+        }
+
+      }
+    },
+    "provod": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Provod",
+      "options": {
+        "baseURL": "https://api.provod.ai/v1"
+      },
+      "models": {
+	"deepseek-v4-flash": {
+          "name": "Provod Deepseek"
+        }
+
+      }
+    },
+    "nvidia": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Nvidia",
+      "options": {
+        "baseURL": "https://integrate.api.nvidia.com/v1"
+      },
+      "models": {
+	"nvidia/nemotron-3-ultra-550b-a55b": {
+          "name": "Nvidia Nemotron"
+        }
+
+      }
+    },
+    "openrouter": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Openrouter",
+      "options": {
+        "baseURL": "https://openrouter.ai/api/v1"
+      },
+      "models": {
+	"deepseek/deepseek-v4-flash-0731": {
+          "name": "OpenRouter Deepseek 0731"
+        },
+	"z-ai/glm-5.2:free": {
+          "name": "Openroute GLM free"
+        },
+	"nvidia/nemotron-3-ultra-550b-a55b:free": {
+          "name": "Openroute Nemotron free"
+        }
+
+
+
+      }
+    },
+    "neuraldeep": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "NeuralDeep",
+      "options": {
+        "baseURL": "https://api.neuraldeep.ru/v1"
+      },
+      "models": {
+	"qwen3.8-27b": {
+          "name": "Neuraldeep qwen3.8-27b"
+        }
+
+
+
+      }
+    },
+
+
+  }
+}
